@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+/* ------------nav start------------- */
+.nav-section{
+    padding-top: 36px;
+    padding-bottom: 69px;
+    background-color: rgba(255, 192, 203, 0.37);
+}
+.nav-section .nav-parrents{
+    display:flex;
+}
+.nav-section .nav-parrents .navchild-one{
+    width:70%;
+    
+}
+.nav-section .nav-parrents .navchild-two{
+    width:30%;
+}
+.nav-section .nav-parrents .navchild-two .nav-menu ul{
+    display: flex;
+   
+}
+.nav-section .nav-parrents .navchild-two .nav-menu ul li{
+    list-style: none;
+    
+}
+.nav-section .nav-parrents .navchild-two .nav-menu ul li a{
+    text-decoration: none;
+    padding-right: 35px;
+    color: black;
+    font-size: 17px;
+}
+/* ------------------------------navbar end------------------------------------------ */
+/* ------------------------Banner Start----------------------------- */
+.banner-section{
+    background-color: rgba(255, 192, 203, 0.37);
+}
+.banner-section .banner-parrents .bannerchild-one{
+    text-align: center;
+    line-height: 20px;
+}
+.banner-section .banner-parrents .bannerchild-one h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+.banner-section .banner-parrents .bannerchild-one p{
+    color: rgba(114, 105, 105, 0.986);
+    font-size: 15px;
+}
+.banner-section .banner-parrents .bannerchild-one button{
+    padding: 12px;
+    background: orange;
+    border: orange;
+    border-radius: 10px;
+}
+.banner-section .banner-parrents .bannerchild-one button a{
+    text-decoration: none;
+    color: white;
+    }
+    .banner-section .banner-parrents .bannerchild-two{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .banner-section .banner-parrents .bannerchild-two img {
+    width:100%;
+    height:100%;
+    }
+/* ----------------------Banner End----------------------- */
+/*-- ----------GRID SYSTEM START------------- --*/
+.grid-section{
+    padding-top: 44px;
+    padding-bottom: 67px;
+}
+.grid-section .grid-parrents{
+    display: flex;
+}
+.grid-section .grid-parrents .grid-childone img{
+    width: 100%;
+    height:100%;
+}
+.grid-section .grid-parrents .grid-childone{
+    width:45%;
+    display: grid;
+    grid-template-columns: repeat(2,179px);
+    gap: 15px;
+    padding-left: 32px;
+}
+.grid-section .grid-parrents .grid-childtwo{
+    width:55%;
+    padding-top: 111px;
+}
+.grid-section .grid-parrents .grid-childtwo h1{
+    color: silver;
+}
+.grid-section .grid-parrents .grid-childtwo h1 .black{
+    color: black;
+}
+.grid-section .grid-parrents .grid-childtwo h1 .orange{
+    color: orange;
+}
+.grid-section .grid-parrents .grid-childtwo p{
+    font-size: 12px;
+    color: rgb(53, 49, 49);
+}
+.grid-section .grid-parrents .grid-childtwo button{
+    padding: 11px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+.grid-section .grid-parrents .grid-childtwo button a{
+    text-decoration: none;
+    color:white;
+}
+/*-- ----------GRID SYSTEM End------------- --*/
+/* \\\\\\\\\\\\\\Features section Start\\\\\\\\\\\\\\\\\\\ */
+.features-section {
+    padding-top:89px;
+}
+.features-section .features-parrents{
+    display: flex;
+}
+.features-section .features-parrents .features-one h1{
+    border-left: 4px solid rgba(255, 68, 0, 0.76);
+    padding-left: 15px;
+    font-size: 40px;
+}
+.features-section .features-parrents .features-one p{
+    padding-top: 14px;
+    color:rgba(0, 0, 0, 0.651);
+    font-size: 12px;
+}
+.features-section .features-parrents .features-one .box{
+    margin-top: 20px;
+    padding-top:17px;
+    padding-left:17px;
+    width: 348px;
+    height:115px;
+    background-color: whitesmoke;
+    box-shadow: rgba(65, 85, 107, 0.87) 0px 20px 30px -10px;;
+
+}
+.features-section .features-parrents .features-one {
+    width:45%;
+}
+.features-section .features-parrents .features-two{
+    width:55%;
+    position: relative;
+}
+.features-section .features-parrents .features-two img{
+    height: 750px;
+}
+.features-section .features-parrents .features-two button{
+background: rgba(236, 145, 8, 0.932);
+padding: 25px 30px 25px 30px;
+border: none;
+position: absolute;
+left: -49px;
+bottom: -38px;
+border-radius: 10px;
+}
+.features-section .features-parrents .features-two button a{
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 800px;
+    color: white;
+}
+.features-section .features-parrents .features-two button a span{
+ font-size: 15px;
+}
+/* \\\\\\\\\\\\\\Features section END\\\\\\\\\\\\\\\\\\\ */
+/* ///////////////////SOME SECTION START/////////////////////////// */
+.some-section{
+    padding-top:94px;
+
+}
+.some-section .some-parrents h2{
+    font-weight: 600px;
+    font-size: 28px;
+}
+.some-section .some-parrents p{
+    color:rgba(0, 0, 0, 0.733);
+}
+/* ///////////////////SOME SECTION end/////////////////////////// */
+/* ////////////////////START CARD SECTION//////////////////////////////// */
+.card-section{
+    padding-top: 76px;
+
+}
+.card-section .card-parrents{
+    display: flex;
+    justify-content: center;
+}
+.card-section .card-parrents .card{
+    margin-right:105px;
+    text-align: center;
+    border: 1px solid rgba(255, 166, 0, 0.877);
+    padding: 20px;
+    border-radius: 5px;
+}
+.card-section .card-parrents .card:hover {
+   transform: scale(1.5);
+}
+.card-section .card-parrents .card h2{
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.842);
+}
+.card-section .card-parrents .card p{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.452);
+    padding-top: 10px;
+}
+/* ////////////////////END caRd SeCtion//////////////////////////////// */
+/* //////<!-- ---------Sponspors section start-------- -->//////////////////// */
+.sponsore-section{
+    padding-top: 104px;
+}
+.sponsore-section .sponsore-parrents .sponsore-one{
+    text-align: center;
+}
+.sponsore-section .sponsore-parrents .sponsore-one h1{
+    font-weight: 800;
+    font-size: 35px;
+}
+.sponsore-section .sponsore-parrents .sponsore-one p{
+    color: rgba(0, 0, 0, 0.726);
+}
+.sponsore-section .sponsore-parrents .sponsore-two{
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+}
+.sponsore-section .sponsore-parrents .sponsore-two div{
+    margin-right: 87px;
+}
+.sponsore-section .sponsore-parrents .sponsore-two div img{
+    filter:grayscale(100%)
+}
+/* <!-- ---------Sponspors section End-------- --> */
+/* ------------------Gallery section start------------------------- */
+.gallery-section{
+    padding-top: 90px;
+}
+.gallery-section h2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 50px;
+    background: linear-gradient(90deg,#de00d393,#19d8b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gallery-section img{
+    height: 100%;
+    width:100%;
+}
+.gallery-section .row{
+    height: 400px;
+    margin-bottom: 5px;
+}
+.gallery-section .second-row{
+    display:flex;
+    gap:5px;
+}
+.gallery-section .second-row > div{
+    flex: 1;
+}
+.gallery-section .second-row .second-thirdcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.gallery-section .second-row .second-thirdcontent div{
+    height:calc(50% - 5px/2 );
+}
+.gallery-section .third-row{
+    display: flex;
+    gap: 5px;
+}
+.gallery-section .third-row >div{
+    flex: 1;
+}
+.gallery-section .third-row .third-rowsecond{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5px;
+}
+/* ---------------------GALLERY SECTION End----------------------------------- */
+/* ----------------FOOTER SECTION---------------------------- */
+.footer{
+    padding-top: 94px;
+}
+.footer .container{
+    background:rgba(255, 192, 203, 0.37) ;
+}
+.footer .fo-parrents{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.footer .fo-parrents p{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.575);
+}
+/* ---------------------Footer ENd---------------------------------- */
+/* ---------------------for PHONE--------
+       ----------------------------------FOR PHONE------------------------- */
+@media (max-width: 576px) { 
+        /* nav section */
+.nav-section .nav-parrents{
+            flex-direction: column;
+        } 
+.nav-section .nav-parrents .navchild-one {
+    width: 100%;
+}      
+.nav-section .nav-parrents .navchild-one h1{
+    text-align: center;
+}   
+.nav-section .nav-parrents .navchild-two .nav-menu ul{
+    flex-direction: column;
+    text-align: center;
+   
+}
+.nav-section .nav-parrents .navchild-one h1{
+font-size:30px ;
+}
+.nav-section .nav-parrents .navchild-two .nav-menu ul li a{
+    padding-right: 0px;
+    font-size: 21px;
+    font-weight: 800;
+}
+.nav-section .nav-parrents .navchild-two{
+    width: 100%;
+}
+/* //////////////grid///////////////// */
+.grid-section{
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.grid-section .grid-parrents{
+    flex-direction:column-reverse;
+}
+.grid-section .grid-parrents .grid-childtwo{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.grid-section .grid-parrents .grid-childone{
+    width:100%;
+    grid-template-columns: repeat(1,179px);
+    padding-left: 0px;
+    justify-content: center;
+}
+/* grid end */
+/* \\\\\\\\\\\\\\Features section Start\\\\\\\\\\\\\\\\\\\ */
+.features-section {
+    padding-top:40px;
+}
+.features-section .features-parrents{
+    flex-direction: column;
+}
+.features-section .features-parrents .features-one {
+    text-align: center;
+    width: 100%;
+}
+.features-section .features-parrents .features-two{
+    padding-top: 30px;
+    width:100%;
+}
+.features-section .features-parrents .features-two img{
+    height: 100%;
+    width: 100%;
+}
+.features-section .features-parrents .features-two button{
+    padding: 15px 20px 15px 20px;
+    left: 115px;
+    bottom: -25px;
+    border-radius: 10px 35px 10px 35px;
+    }
+/* \\\\\\\\\\\\\\Features section end\\\\\\\\\\\\\\\\\\\ */
+/* ///////////////////SOME SECTION START/////////////////////////// */
+
+.some-section .some-parrents{
+    text-align: center;
+}
+.some-section .some-parrents p{
+    font-size: 15px;
+}
+/* ///////////////////SOME SECTION end/////////////////////////// */
+/* ////////////////////START CARD SECTION//////////////////////////////// */
+.card-section{
+    padding-top: 46px;
+
+}
+.card-section .card-parrents{
+    flex-direction: column;
+}
+.card-section .card-parrents .card{
+    margin-right:0px; 
+    margin-bottom: 15px;
+}  
+.card-section .card-parrents .card:hover {
+    transform: scale(0.5);
+ }
+/* ////////////////////End CARD SECTION//////////////////////////////// */
+        /* //////<!-- ---------Sponspors section start-------- -->//////////////////// */
+.sponsore-section{
+    padding-top: 40px;
+}
+.sponsore-section .sponsore-parrents .sponsore-one p{
+    font-size: 15px;
+}
+.sponsore-section .sponsore-parrents .sponsore-two{
+    padding-top: 25px;
+    flex-direction: column;
+    text-align: center;
+}
+.sponsore-section .sponsore-parrents .sponsore-two div{
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+/* ------------------Gallery section start------------------------- */
+.gallery-section{
+    padding-top: 50px;
+}
+.gallery-section .row{
+    height: 100%;
+}
+.gallery-section .second-row{
+    flex-direction: column;
+}
+.gallery-section .second-row .second-thirdcontent{
+    flex-direction: column;
+    
+}
+.gallery-section .third-row{
+    flex-direction: column;
+}
+.gallery-section .third-row .third-rowsecond{
+    grid-template-columns: repeat(1,1fr);
+}
+/* ------------------Gallery section END------------------------- */
+        /* ----------------FOOTER SECTION---------------------------- */
+.footer{
+    padding-top: 40px;
+}
+.footer .fo-parrents{
+    padding: 15px 0px 15px 0px;
+}
+.footer .fo-parrents p{
+font-size: 15px;
+}
+/* ---------------------Footer ENd---------------------------------- */
+        
+ }
